@@ -1,0 +1,17 @@
+NETWORK TRAFFIC SECURITY REPORT
+===============================
+HTTP Requests: 3
+Protocol: HTTP
+Port: 8080
+
+SECURITY FINDINGS
+HTTP request data is unencrypted.
+Request URLs and query parameters are visible.
+Recommendation: Use HTTPS.
+
+CAPTURED HTTP REQUESTS
+127.0.0.1	127.0.0.1	GET	/?test=security
+127.0.0.1	127.0.0.1	GET	/?project=analysis
+127.0.0.1	127.0.0.1	GET	/?status=success
+
+Analysis completed.
